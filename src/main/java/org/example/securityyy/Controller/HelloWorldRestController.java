@@ -1,10 +1,10 @@
-package org.example.securityyy;
+package org.example.securityyy.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class controller {
+public class HelloWorldRestController {
     @GetMapping("/test")
     public String test() {
         return "Hello World";
